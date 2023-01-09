@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Megha_Resume</title>
+
+	<style>
+	
+		* {
+			margin: 0;
+			padding: 0;
+			border-color: rgb(34, 16, 51);
+		}
+
+		.navbar 
+		{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background 
+		{
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list 
+		{
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo 
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img 
+		{
+			width: 180px;
+			border-radius: 50px;
+		}
+
+		.nav-list li 
+		{
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a 
+		{
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover 
+		{
+			color: grey;
+		}
+
+		.rightnav 
+		{
+			width: 30%;
+			text-align: right;
+		}
+
+		#search 
+		{
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection 
+		{
+			background-color: rgb(113, 211, 175);
+			height: 200px;
+		}
+
+		.secondsection 
+		{
+			background-color: rgb(130, 130, 214);
+			height: 250px;
+		}
+
+		.thirdsection
+		{
+			background-color: rgb(247, 198, 228);
+			height: 200px;
+		}
+
+		.box-main 
+		{
+			display: flex;
+			justify-content: left;
+			align-items: left;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf 
+		{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf 
+		{
+			width: 30%;
+		}
+
+		.secondhalf img 
+		{
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big 
+		{
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small 
+		{
+			font-size: 18px;
+		}
+
+		.btn 
+		{
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: None;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm 
+		{
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.thumbnail img 
+		{
+			justify-content: right;
+			align-items: right;
+			width: 150px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+			margin-right: 10px;
+			position: right;
+		}
+
+		.center 
+		{
+			text-align: center;
+		}
+
+		.text-footer 
+		{
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png">
+			</div>
+			<li><a href="https://drive.google.com/drive/folders/1RXzf-QGCLLyCXsCVx896opK3WbRCEtKe?usp=share_link">Projects</a></li>
+			<li><a href="https://drive.google.com/drive/folders/1l2jQKTW523stzAPIExboaME71eE6z16-?usp=share_link">Education</a></li>
+			<li><a href="https://www.codechef.com/users/megha_4102">Achievements</a></li>
+			<li><a href="https://drive.google.com/file/d/1ESkDLFtaFgkbMO1YUNhyqarA_GczZcEc/view?usp=share_link">Resume</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search" placeholder="Welcome To My CV site😁">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="Introduction">Introduction</h1>
+				<p class="text-small">
+					<br>
+                    <strong>Greetings to all reader!!</strong><br>
+                    I am bachelor student from Dhirubhai Ambani Institute Of Information And Communication Technology.My self Megha Rathwa,
+                    currently third year student doing well in academics. I am good at making things attractive than usual. I am goal oriented,determined and ambitious person with passion for coding
+                    .Designing is my other passion. I am trying to design sites using UI/UX. I have great knowledge of technogoly . 
+
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="Education">
+					Education
+				</h1>
+				<p class="text-small">
+					<br>
+					<ul type="disc">
+                        <li>University : DAIICT , Gandhinagar</li>
+                        <ul type="square">
+							<li>Student ID : 202001128</li>
+                            <li>CPI : 6.92</li>
+                            <li>Batch : 2020 - 2024</li>
+                            <li>Courses : Object Oriented Programming,Computer Organization , Design And Analysis Of Algorithm 
+                                ,Database Management System , Computer Networks , Introduction To Programming , Operating Systems.
+                            </li>
+                        </ul>
+                        <li>School: Jawahar Navodaya Vidyalaya , Vadodara</li>
+                        <ul type="square">
+                            <li>Board : AISSCE and CBSE</li>
+                            <li>12th percentage : 80.2%</li>
+                            <li>10th percentage : 87.6%</li>
+                        </ul>
+                        
+                    </ul>
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="thirdsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="Achievements">Achievements</h1>
+				<p class="text-small">
+					<br>
+                    <ul type="disc">
+						<li>Codechef Rating : 2 stars(1498) solved 200+ tricky and complex problems in c++17 language. Also got gold badge for 50 days streak
+							and silver badge in problem solving.
+						</li>
+						<li>NCC Cadet with A certificate</li>
+						<li>Rajya Puraskar in Scout Guide</li>
+					</ul>
+				</p>
+
+
+			</div>
+			<div class="thumbnail">
+				<div class="secondhalf">
+				<img src= "laptop.png" alt="laptop image">
+			    </div>
+			</div>
+			
+		</div>
+	</section>
+	<footer class="background">
+		<p class="text-footer">
+			Meghaben Rathwa(B.Tech-ICT) - Dhirubhai Ambani Institute Of Information And Communication Technology
+		</p>
+	</footer>
+</body>
+
+</html>
