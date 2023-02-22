@@ -23,18 +23,18 @@
             <a href="https://drive.google.com/drive/folders/1l2jQKTW523stzAPIExboaME71eE6z16-?usp=share_link"class="mr-5 hover:text-gray-900">Academics</a>
             <a href="https://drive.google.com/drive/folders/1RXzf-QGCLLyCXsCVx896opK3WbRCEtKe?usp=share_link"class="mr-5 hover:text-gray-900">Projects</a>
           </nav>
-         
+          <!-- <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
-          </button>
+          </button> -->
         </div>
       </header>
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Greetings to all readers!!
-              <br class="hidden lg:inline-block">Welcome to my small and interesting portfolio....
+              <br class="hidden lg:inline-block">Welcome to my small and interesting portfolio...
             </h1>
             <p class="mb-8 leading-relaxed">I am bachelor student from Dhirubhai Ambani Institute Of Information And Communication Technology.My self Megha Rathwa,
               currently third year student doing well in academics. I am good at making things attractive than usual. I am goal oriented,determined and ambitious person with passion for coding
