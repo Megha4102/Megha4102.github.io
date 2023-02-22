@@ -18,7 +18,7 @@
             <span class="ml-3 text-xl">Portfolio</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="https://drive.google.com/file/d/1ESkDLFtaFgkbMO1YUNhyqarA_GczZcEc/view?usp=share_link"class="mr-5 hover:text-gray-900">Resume</a>
+            <a href="https://drive.google.com/file/d/1z7FwoSQnSYATUj5PCCanDJNmgu7o7HSu/view?usp=share_link"class="mr-5 hover:text-gray-900">Resume</a>
             <a href="https://www.codechef.com/users/megha_4102"class="mr-5 hover:text-gray-900">Achievements</a>
             <a href="https://drive.google.com/drive/folders/1l2jQKTW523stzAPIExboaME71eE6z16-?usp=share_link"class="mr-5 hover:text-gray-900">Academics</a>
             <a href="https://drive.google.com/drive/folders/1RXzf-QGCLLyCXsCVx896opK3WbRCEtKe?usp=share_link"class="mr-5 hover:text-gray-900">Projects</a>
